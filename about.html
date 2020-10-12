@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,
+     initial-scale=1.0"
+    />
+    <title>About me!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header sektionen är preliminär och kan ersättas av den som 
+        är ansvarig för den delen -->
+    <header class="header">
+      <div id="logo">
+        <p>Logo</p>
+      </div>
+      <div id="nav">
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Albums & Music</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="clearfix"></div>
+    </header>
+    <div class="container">
+      <section class="flex-item">
+        <h1>Contact me</h1>
+        <p>
+          If you are an event manager or want to invite me to an event, you can
+          use the form below. Do not forget to submit your telephone number so
+          that I can get in touch with you for further discussions
+        </p>
+        <form action="#">
+          <div class="form">
+            <div class="left">
+              <p><label for="name">Name</label></p>
+              <p><label for="emil">E-mail address</label></p>
+              <p><label for="telnr">Phone Number</label></p>
+              <p>Description</p>
+            </div>
+            <div class="right">
+              <p><input type="text" name="name" id="name" /></p>
+              <p><input type="text" name="email" id="email" /></p>
+              <p><input type="text" name="telnr" id="telnr" /></p>
+              <p>
+                <textarea
+                  name="description"
+                  id="description"
+                  cols="30"
+                  rows="10"
+                >
+                </textarea>
+              </p>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+          
+          <input type="submit" class="center" value="Submit" class="submit-btn" />
+        </form>
+      </section>
+      <div class="clearfix"></div>
+      <aside class="flex-item">
+        <div>
+          <h2>Turneschema</h2>
+        </div>
+      </aside>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="flex-item social-media">
+          <h2>Follow us on</h2>
+          <ul>
+            <li>
+              <a href="#"
+                ><span><i class="fab fa-twitter"></i></span>Twitter</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><span><i class="fab fa-facebook-f"></i></span>Facebook</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><span><i class="fab fa-youtube"></i></span>Youtube</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><span><i class="fab fa-instagram"></i></span>Instagram</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="flex-item contact">
+          <h2>Contact us</h2>
+          <address>
+            <p>Minervavagen 22A</p>
+            <p>371 41 Karlskrona</p>
+            <p><a href="mailto:info@habibdev.se">Send e-mail</a></p>
+          </address>
+        </div>
+      </div>
+      <div id="copyright">
+        <p>All right reserved, &copy; copyright 2020</p>
+      </div>
+    </footer>
+  </body>
+</html>
