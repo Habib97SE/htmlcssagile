@@ -1,3 +1,4 @@
+/* General Settings */
 * {
   box-sizing: border-box;
 }
@@ -30,7 +31,10 @@ a {
 .clearfix {
   clear: both;
 }
+/* End general settings */
 
+
+/* Start Footer section styles  */
 .social-media {
   margin: auto;
 }
@@ -48,6 +52,8 @@ a {
   font-size: 1.2rem;
   font-weight: bold;
 }
+/* End Footer section Styles*/
+
 
 /*Start About page Styles */
 
@@ -95,6 +101,6 @@ input[type="text"] {
     float: right;
 }
 .center {
-    text-align: center;
+    text-align: center; 
 }
 /* End about page Styles */
