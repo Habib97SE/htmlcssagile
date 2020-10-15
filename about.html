@@ -2,104 +2,90 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width,
-     initial-scale=1.0"
-    />
-    <title>About me!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Piazzolla:wght@500&family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <!-- Header sektionen är preliminär och kan ersättas av den som 
-        är ansvarig för den delen -->
-    <header class="header">
-      <div id="logo">
-        <p>Logo</p>
+    <header class="container">
+      <div class="flex-item logo">
+        <h1>Logo</h1>
       </div>
-      <div id="nav">
+      <div class="flex-item">
         <nav>
           <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">Albums & Music</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Musics</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contat us</a></li>
           </ul>
         </nav>
       </div>
-      <div class="clearfix"></div>
+      <div class="flex-item social-icons">
+        <i>
+          <img src="images/social-media.png" alt="Follow us" />
+        </i>
+      </div>
     </header>
-    <!-- Main section of about p -->
-    <div class="container">
-      <section class="flex-item">
-        <h1>Contact me</h1>
+    <hr>
+    <section>
+      <article>
+        <h1>-About us</h1>
+        <img src="images/1.jpg" alt="About me" />
         <p>
-          If you are an event manager or want to invite me to an event, you can
-          use the form below. Do not forget to submit your telephone number so
-          that I can get in touch with you for further discussions
+          Band is a multidisciplinary creative studio based in the Pacific
+          Northwest. Their About Us page stands out by showcasing some of their
+          unique and creative projects. No number of words could hope to tell
+          one of their potential clients nearly as much as these pictures can.
+          In this case, the 25 pictures featured on Band’s About Us page are
+          worth much more than the 170 actual words you’ll read on the page. The
+          magical visuals and overall simple look and feel makes this About Us
+          page one of our top picks.
         </p>
-        <img src="images/1.jpg" alt="History" />
+        <img src="images/2.jpg" alt="About our tours" />
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-          laudantium aliquid suscipit velit sint, ea omnis voluptatem illum ab?
-          Fuga libero modi error quod enim, dolorem aut temporibus dignissimos
-          et.
+          Band is a multidisciplinary creative studio based in the Pacific
+          Northwest. Their About Us page stands out by showcasing some of their
+          unique and creative projects. No number of words could hope to tell
+          one of their potential clients nearly as much as these pictures can.
+          In this case, the 25 pictures featured on Band’s About Us page are
+          worth much more than the 170 actual words you’ll read on the page. The
+          magical visuals and overall simple look and feel makes this About Us
+          page one of our top picks.
         </p>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-          laudantium aliquid suscipit velit sint, ea omnis voluptatem illum ab?
-          Fuga libero modi error quod enim, dolorem aut temporibus dignissimos
-          et.
-        </p>
-        <img src="images/2.jpg" alt="First concert ">
-      </section>
-      <div class="clearfix"></div>
-      <aside class="flex-item">
-        <!-- The sidebar section is designed and set temporarily
-        abd will be replaced with final design-->
-        <div>
-          <h2>Turneschema</h2>
-        </div>
-      </aside>
-    </div>
+      </article>
+    </section>
+    <hr>
     <footer>
       <div class="container">
-        <div class="flex-item social-media">
-          <h2>Follow us on</h2>
+        <div class="flex-item">
           <ul>
-            <li>
-              <a href="#"
-                ><span><i class="fab fa-twitter"></i></span>Twitter</a
-              >
-            </li>
-            <li>
-              <a href="#"
-                ><span><i class="fab fa-facebook-f"></i></span>Facebook</a
-              >
-            </li>
-            <li>
-              <a href="#"
-                ><span><i class="fab fa-youtube"></i></span>Youtube</a
-              >
-            </li>
-            <li>
-              <a href="#"
-                ><span><i class="fab fa-instagram"></i></span>Instagram</a
-              >
-            </li>
+            <h2>Follow us</h2>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Youtube</a></li>
           </ul>
         </div>
-        <div class="flex-item contact">
-          <h2>Contact us</h2>
-          <address>
-            <p>Minervavagen 22A</p>
-            <p>371 41 Karlskrona</p>
-            <p><a href="mailto:info@habibdev.se">Send e-mail</a></p>
-          </address>
+        <div class="flex-item">
+          <ul>
+            <h2>Info</h2>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="flex-item newsletter">
+          <input type="text" placeholder="Subscribe to our newsletter ..." />
+          <input type="submit" value="Subscribe" id="Subscribe" />
         </div>
       </div>
-      <div id="copyright">
-        <p>All right reserved, &copy; copyright 2020</p>
+      <div class="container">
+        <p>All rights reserved.</p>
       </div>
     </footer>
   </body>
